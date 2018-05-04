@@ -3,7 +3,7 @@
 >Update daily
  
 * **BCH**
-    - to BTC: BCH/[BCHtoBTC.tsv]
+    - to BTC: [BCH/BCHtoBTC.tsv]
     - to USD: BCH/[BCHtoUSD.tsv]
  
 * **BTC**
