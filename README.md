@@ -12,7 +12,7 @@
  
 * **EOS**
     - to BTC: EOS/EOStoBTC.tsv
-    - to ETH: EOS/EOStoETH.tsv
+    - to ETH: EOS/EOStoETH.tsv
     - to USD: EOS/EOStoUSD.tsv
  
 * **ETC**
