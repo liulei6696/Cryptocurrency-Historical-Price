@@ -11,10 +11,13 @@
 
 * **Field**
 
-|    time   |timestamp based on Greenwich Mean Time(GMT), specified in seconds.
-|   close   |close price at the end of this minute
-|    high   |highest price in this minute
-|    low    |lowest price in this minute
-|    open   |open price at the beginning of this minute
-|  volumeto |volume(primary currency)
-| volumefrom|volume(to currency)
+
+|    field  |                        Description                               |
+|:---------:|:----------------------------------------------------------------:|
+|    time   |timestamp based on Greenwich Mean Time(GMT), specified in seconds.|
+|   close   |close price at the end of this minute                             |
+|    high   |highest price in this minute                                      |
+|    low    |lowest price in this minute                                       |
+|    open   |open price at the beginning of this minute                        |
+|  volumeto |volume(primary currency)                                          |
+| volumefrom|volume(to currency)                                               |
