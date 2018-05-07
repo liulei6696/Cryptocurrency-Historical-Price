@@ -2,24 +2,19 @@
 
 >Update daily
  
-* **BCH**
-    - to BTC: BCH/BCHtoBTC.tsv
-    - to USD: BCH/BCHtoUSD.tsv
- 
-* **BTC**
-    - to USD in Bitmap historical data from [Kaggle](https://www.kaggle.com/mczielinski/bitcoin-historical-data/data): bitstampUSD_1-min_data_2012-01-01_to_2018-03-27.csv
-    - to USD：BTC/BTCtoUSD.tsv
- 
-* **EOS**
-    - to BTC: EOS/EOStoBTC.tsv
-    - to ETH: EOS/EOStoETH.tsv
-    - to USD: EOS/EOStoUSD.tsv
- 
-* **ETC**
-    - to BTC: ETC/ETCtoBTC.tsv
-    - to ETH: ETC/ETCtoETH.tsv
-    - to USD: ETC/ETCtoUSD.tsv
- 
-* **ETH**
-    - to BTC: ETH/ETHtoBTC.tsv
-    - to USD: ETH/ETHtoUSD.tsv
+* **Additional Data**
+    - BTC to USD in Bitmap historical data from [Kaggle](https://www.kaggle.com/mczielinski/bitcoin-historical-data/data): bitstampUSD_1-min_data_2012-01-01_to_2018-03-27.csv
+
+* **File Format**
+
+All the files are store in '.tsv' which uses 'tab' as delimiter that is different from '.csv' which uses comma as delimiter.
+
+* **Field**
+
+    time   |timestamp based on Greenwich Mean Time(GMT), specified in seconds.
+   close   |close price at the end of this minute
+    high   |highest price in this minute
+    low    |lowest price in this minute
+    open   |open price at the beginning of this minute
+  volumeto |volume(primary currency)
+ volumefrom|volume(to currency)
