@@ -1,3 +1,5 @@
+ - stopped updating 07/22/2018
+
 # Cryptocurrency-Historical-Price
 
 >Update daily
